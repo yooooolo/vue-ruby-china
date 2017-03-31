@@ -1,0 +1,10 @@
+version: '2'
+services:
+  webapp:
+    build: .
+    ports:
+      - 3000
+    volumes:
+      - .:/code
+    tty: true
+    command: npm run dev

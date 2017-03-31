@@ -1,0 +1,20 @@
+{
+  "name": "vue-ruby-china",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:yooooolo/vue-ruby-china.git",
+  "author": "yooooolo <cynosure.kuruma@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "koa": "^2.2.0",
+    "vue": "^2.2.4",
+    "webpack": "^2.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
